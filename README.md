@@ -57,6 +57,10 @@ student-performance-analytics/
 └── student-rankings.png   # Student rankings screenshot
 ```
 
+
+### 👀Check it out : https://student-performance-analytics-tpb.streamlit.app/
+
+
 ### 🚀 Getting Started
 
 1. Clone the Repository
