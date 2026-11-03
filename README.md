@@ -1,4 +1,4 @@
-🎓 Student Performance Analytics System
+## 🎓 Student Performance Analytics System
 
 <p align="center">
   <b>Turn student marks into meaningful insights!</b><br>
@@ -11,13 +11,13 @@
   <img src="https://img.shields.io/badge/Matplotlib-Visualization-orange" alt="Matplotlib">
 </p>---
 
-📌 About the Project
+### 📌 About the Project
 
 The Student Performance Analytics System is a Python-based dashboard designed to help teachers and educators understand student performance through data analysis and visualization.
 
 Instead of manually calculating marks and rankings, users can upload a CSV or Excel file and instantly explore academic results through an interactive dashboard.
 
-✨ Features
+### ✨ Features
 
 - 📂 Upload Data — Import student marks from CSV and Excel files.
 - 📊 Performance Dashboard — View class average, pass rate, and total students.
@@ -29,7 +29,7 @@ Instead of manually calculating marks and rankings, users can upload a CSV or Ex
 - 📥 Export Reports — Download analysis results as CSV or Excel files.
 - 🌙 Dark Dashboard — A clean, dark-themed interface.
 
-🛠️ Tech Stack
+### 🛠️ Tech Stack
 
 Technology| Purpose
 Python| Core programming language
@@ -39,19 +39,25 @@ NumPy| Numerical calculations
 Matplotlib| Charts and visualizations
 OpenPyXL| Excel report generation
 
-📁 Project Structure
+### 📁 Project Structure
 
+```text
 student-performance-analytics/
 │
-├── app.py              # Main Streamlit dashboard
-├── analysis.py         # Performance analysis and rankings
-├── validation.py       # Dataset validation
-├── export.py           # Excel report generation
-├── students.csv        # Sample student dataset
-├── requirements.txt    # Required Python libraries
-└── README.md           # Project documentation
+├── app.py                 # Main Streamlit dashboard
+├── analysis.py            # Performance analysis and rankings
+├── validation.py          # Dataset validation
+├── export.py              # Excel report generation
+├── students.csv           # Sample student dataset
+├── requirements.txt        # Required Python libraries
+├── README.md               # Project documentation
+│
+├── dashboard.png           # Dashboard screenshot
+├── subject-analysis.png    # Subject analysis screenshot
+└── student-rankings.png   # Student rankings screenshot
+```
 
-🚀 Getting Started
+### 🚀 Getting Started
 
 1. Clone the Repository
 
@@ -73,7 +79,7 @@ python -m streamlit run app.py
 
 The dashboard will open in your browser. If it does not, open the local URL displayed in your terminal.
 
-📊 How It Works
+### 📊 How It Works
 
 1. Launch the application.
 2. Upload your student dataset in CSV or Excel format.
@@ -82,33 +88,46 @@ The dashboard will open in your browser. If it does not, open the local URL disp
 5. Identify students who need additional academic support.
 6. Export the generated reports for further use.
 
-📄 Dataset Format
+### 📄 Dataset Format
 
 Your dataset should contain a student identifier column, such as "Name", "Roll No.", or "Student ID", along with numeric subject-mark columns.
 
 Example:
 
-Name| Roll No.| Mathematics| Science| English
-Aditi| 101| 85| 78| 90
-Rahul| 102| 65| 72| 68
-Priya| 103| 35| 48| 55
+```text
+Name | Roll No.| Mathematics| Science| English|
+Aditi|      101|          85|      78|      90|
+Rahul|      102|          65|      72|      68|
+Priya|      103|          35|      48|      55|
+```
 
 Note: Subject marks should be numeric and within the range of 0–100. The application identifies students needing support when any subject mark falls below the selected threshold.
 
-🖼️ Screenshots
+## 🖼️ Screenshots
 
-Want to showcase your dashboard? Add screenshots of your application here.
+### 🏠 Dashboard
 
-screenshots/
-├── dashboard.png
-├── subject-analysis.png
-└── student-rankings.png
+<p align="center">
+  <img src="dashboard.png" width="100%" alt="Student Performance Analytics Dashboard"/>
+</p>
 
-After uploading screenshots to a "screenshots" folder in your repository, display them using:
+---
 
-![Dashboard](screenshots/dashboard.png)
+### 📊 Subject Analysis
 
-🎯 Project Objectives
+<p align="center">
+  <img src="subject-analysis.png" width="100%" alt="Subject-wise Performance Analysis"/>
+</p>
+
+---
+
+### 🏆 Student Rankings
+
+<p align="center">
+  <img src="student-rankings.png" width="100%" alt="Student Rankings"/>
+</p>
+
+### 🎯 Project Objectives
 
 - Simplify student performance analysis.
 - Reduce manual calculations and reporting effort.
@@ -116,21 +135,13 @@ After uploading screenshots to a "screenshots" folder in your repository, displa
 - Help educators identify students who may need extra attention.
 - Demonstrate practical applications of Python and data visualization.
 
-🔮 Future Improvements
 
-- 📅 Track student performance across multiple semesters.
-- 📉 Compare academic trends over time.
-- 📄 Generate downloadable PDF reports.
-- 🔐 Add teacher login and role-based access.
-- ☁️ Deploy the dashboard online.
+### 👨‍💻 Author
 
-👨‍💻 Author
-
-YOUR NAME
-
+Tanmay
 Computer Science Student | Python & Data Analytics Enthusiast
 
-- GitHub: "YOUR-USERNAME" (https://github.com/YOUR-USERNAME)
+- GitHub: https://github.com/25bawankartp-rbu
 
 🤝 Contributing
 
